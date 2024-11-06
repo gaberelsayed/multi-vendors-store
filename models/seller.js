@@ -35,7 +35,7 @@ const sellerSchema = new Schema({
     },
   ],
   resetToken: String,
-  resetTokenExpirationDate: Date,
+  resetTokenExpirationDate: Date,         
   password: {
     type: String,
     required: true,
